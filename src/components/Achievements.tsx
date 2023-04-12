@@ -18,7 +18,7 @@ export const Achievements = ({ totalAmount }: Props) => {
       </div>
       <div className="border border-blueDeep py-8 flex flex-col items-center rounded-md sm:w-1/2 md:w-full lg:w-full">
         <span className="text-2xl sm:text-4xl md:text-5xl xl:text-5xl lg:text-6xl font-semibold">
-          1000000
+          ₦{totalAmount}
         </span>
         <span>Donated</span>
       </div>

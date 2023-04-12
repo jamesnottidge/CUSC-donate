@@ -24,7 +24,7 @@ export default function Goals({}: Props) {
         <div className="border border-blueDeep rounded-md py-6 flex flex-col items-center justify-center font-raleway sm:w-1/2">
           <i className="fas fa-user fa-2x fa-fw"></i>
           <p className="text-4xl sm:text-4xl md:text-5xl font-number font-bold">
-            7,000,000
+            ₦7,000,000
           </p>
           <span className="text-lg text-center">
             in donations <br />
