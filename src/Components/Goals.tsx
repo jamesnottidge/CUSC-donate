@@ -13,17 +13,19 @@ export default function Goals({}: Props) {
         quisquam.
       </div>
       <h4 className="text-2xl font-light font-raleway mb-4">Goals</h4>
-      <div className="flex flex-col sm:flex-row xl:flex-row space-y-4 sm:space-y-0 sm:space-x-4 xl:space-x-4 xl:w-4/5 w-full">
-        <div className="border border-blueDeep rounded-md sm:w-1/2 py-6 px-4 flex flex-col items-center justify-center font-raleway">
+      <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 xl:space-x-4 w-full p-2">
+        <div className="border border-blueDeep rounded-md sm:w-1/2 py-6 px-4 flex flex-col flex-grow-1 items-center justify-center font-raleway">
           <i className="fas fa-user fa-2x fa-fw"></i>
-          <p className="text-4xl sm:text-5xl font-number font-bold">44</p>
+          <p className="text-4xl sm:text-5xl font-number font-bold xl:text-3xl">
+            44
+          </p>
           <span className="text-lg text-center">
             Students aided <br />
           </span>
         </div>
-        <div className="border border-blueDeep rounded-md py-6 flex flex-col items-center justify-center font-raleway sm:w-1/2">
+        <div className="border border-blueDeep rounded-md py-6 flex flex-col items-center justify-center font-raleway sm:w-1/2 ">
           <i className="fas fa-user fa-2x fa-fw"></i>
-          <p className="text-4xl sm:text-4xl md:text-5xl font-number font-bold">
+          <p className="text-4xl sm:text-4xl md:text-5xl font-number font-bold xl:text-3xl">
             ₦7,000,000
           </p>
           <span className="text-lg text-center">
