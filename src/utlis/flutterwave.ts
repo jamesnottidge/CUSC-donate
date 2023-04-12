@@ -10,11 +10,10 @@ const getAllTransactions = async () => {
   await fetch(`${apiUrl}`)
     .then((response) => response.json())
     .then((data: Transaction[]) => {
-      //   console.log(data);
-      allTransactions = data;
+      // console.log(data);
+      allTransactions.push(...data);
     })
     .catch((err) => console.log(err));
-
   return allTransactions;
 };
 

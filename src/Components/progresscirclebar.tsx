@@ -48,7 +48,7 @@ const CircularProgressBar: React.FC<Props> = ({
         value={displayPercentage}
         text={`${Math.round(displayPercentage)}%`}
         strokeWidth={strokeWidth}
-        className={`w-72 h-72 mx-auto ${color} `}
+        className={`w-60 h-60 sm:w-72 :h-72 mx-auto ${color} `}
         // trailClassName="stroke-gray-300"
         // styles={{
         //   path: {
