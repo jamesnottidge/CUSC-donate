@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { Transition } from "@headlessui/react";
+import { getAllTransactions } from "../utlis/flutterwave";
+import { Transaction } from "../types";
 
 interface Props {
   percentage: number;
@@ -19,7 +21,6 @@ const CircularProgressBar: React.FC<Props> = ({
   textColor = "text-gray-800",
 }) => {
   const [displayPercentage, setDisplayPercentage] = useState(0);
-
   useEffect(() => {
     let startTime: number;
 
