@@ -16,7 +16,7 @@ interface Props {
 const CircularProgressBar: React.FC<Props> = ({
   percentage,
   strokeWidth = 12,
-  duration = 9000,
+  duration = 3000,
   color = "text-blue-500",
   textColor = "text-gray-800",
 }) => {

@@ -13,7 +13,7 @@ export default function Goals({}: Props) {
         quisquam.
       </div>
       <h4 className="text-2xl font-light font-raleway mb-4">Goals</h4>
-      <div className="flex flex-col sm:flex-row xl:flex-col space-y-4 sm:space-y-0 sm:space-x-4 w-full">
+      <div className="flex flex-col sm:flex-row xl:flex-row space-y-4 sm:space-y-0 sm:space-x-4 xl:space-x-4 xl:w-4/5 w-full">
         <div className="border border-blueDeep rounded-md sm:w-1/2 py-6 px-4 flex flex-col items-center justify-center font-raleway">
           <i className="fas fa-user fa-2x fa-fw"></i>
           <p className="text-4xl sm:text-5xl font-number font-bold">44</p>
@@ -31,7 +31,7 @@ export default function Goals({}: Props) {
           </span>
         </div>
       </div>
-      <button className="py-4 md:py-6 w-full bg-blueDeep mt-6 rounded-lg text-2xl lg:w-1/2 text-white">
+      <button className="py-3 md:py-6 xl:py-4 w-full bg-blueDeep mt-6 xl:mt-12 rounded-lg text-2xl lg:w-1/2 text-white">
         Donate Now!
       </button>
     </div>
