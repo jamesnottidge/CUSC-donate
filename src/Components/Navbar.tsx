@@ -1,18 +1,17 @@
 import React from "react";
 import Timer from "./timer";
-// import logo from "../assets/CU-Logo.png";
 
-type Props = {};
-type LogoType = string;
-const logo: LogoType = "../assets/CU-Logo.png";
+type Props = {
+  logo: string;
+};
 
-export default function Navbar({}: Props) {
+export default function Navbar({ logo }: Props) {
   return (
     <>
-      <div className="bg-gray-100 py-2.5 px-6 sm:px-12">
+      <div className="bg-gray-100 py-2.5 px-6 sm:px-12 lg:px-20">
         <div className="flex justify-between">
-          <div>
-            <img src={logo} alt="" className="w-60" />
+          <div className="flex items-center">
+            <img src={logo} alt="" className="w-60 my-auto" />
           </div>
           <div>
             <div className="border border-blueDeep py-2.5 px-4 rounded-lg">
