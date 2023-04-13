@@ -7,10 +7,11 @@ export default function Goals({}: Props) {
     <div className="py-12 px-6">
       <div className="text-4xl font-normal font-raleway mb-4">IRespond</div>
       <div className="text-lg font-light text-gray-700 mb-4">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-        temporibus illum fugit assumenda et autem soluta libero nihil sed quam.
-        Tenetur, debitis. Illum officia ipsum nihil eaque aperiam ratione
-        quisquam.
+        The IRespond scheme is an avenue through which we aim to see every
+        student resume. We aim to raise of 7,000,000 naira in 5 days! With this
+        sum of money, we can ensure that no student misses out on the
+        opportunity to study because they lack funds.
+        <br /> And we can do it!
       </div>
       <h4 className="text-2xl font-normal font-raleway mb-4">Goals</h4>
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 xl:space-x-4 w-full p-2">
@@ -33,9 +34,11 @@ export default function Goals({}: Props) {
           </span>
         </div>
       </div>
-      <button className="py-3 md:py-6 xl:py-4 w-full bg-blueDeep mt-6 xl:mt-12 rounded-lg text-2xl lg:w-1/2 text-white">
-        Donate Now!
-      </button>
+      <a href="https://flutterwave.com/store/custudentcouncil/aqrlcjwfji5i89">
+        <button className="py-3 md:py-6 xl:py-4 w-full bg-blueDeep mt-6 xl:mt-12 rounded-lg text-2xl lg:w-1/2 text-white">
+          Donate Now!
+        </button>
+      </a>
     </div>
   );
 }

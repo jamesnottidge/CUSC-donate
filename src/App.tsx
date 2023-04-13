@@ -3,7 +3,7 @@ import "./App.css";
 import { getAllTransactions } from "./utlis/flutterwave";
 import Progress from "./components/Progress";
 import Navbar from "./components/Navbar";
-import logo from "./assets/CU-Logo.png";
+import logo from "./assets/council_logo.jpg";
 import Goals from "./components/Goals";
 
 function App() {
