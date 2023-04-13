@@ -12,7 +12,7 @@ export default function Goals({}: Props) {
         Tenetur, debitis. Illum officia ipsum nihil eaque aperiam ratione
         quisquam.
       </div>
-      <h4 className="text-2xl font-light font-raleway mb-4">Goals</h4>
+      <h4 className="text-2xl font-normal font-raleway mb-4">Goals</h4>
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 xl:space-x-4 w-full p-2">
         <div className="border border-blueDeep rounded-md sm:w-1/2 py-6 px-4 flex flex-col flex-grow-1 items-center justify-center font-raleway">
           <i className="fas fa-user fa-2x fa-fw"></i>
