@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #4A0F3A;
+  font-size: 20px;
+  /* dominant-baseline: middle; */
+  text-anchor: middle;
+}
+
+.CircularProgressbar-path {
+  stroke: #4A0F3A !important;
+}
+
+.CircularProgressbar-trail {
+  stroke: #e6e6e6 !important;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

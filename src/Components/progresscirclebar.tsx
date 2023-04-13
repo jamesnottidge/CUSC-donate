@@ -17,8 +17,8 @@ const CircularProgressBar: React.FC<Props> = ({
   percentage,
   strokeWidth = 12,
   duration = 3000,
-  color = "text-blue-500",
-  textColor = "text-gray-800",
+  color = "text-red-100",
+  textColor = "text-red-500",
 }) => {
   const [displayPercentage, setDisplayPercentage] = useState(0);
   useEffect(() => {
@@ -74,7 +74,7 @@ const CircularProgressBar: React.FC<Props> = ({
         leaveTo="opacity-0"
       >
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className={`${textColor} font-bold text-2xl`}></div>
+          <div className={`!${textColor} font-bold text-2xl`}></div>
         </div>
       </Transition>
     </div>

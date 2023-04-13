@@ -11,7 +11,7 @@ export default {
       xl: "1440px",
     },
     colors: {
-      blueDeep: "#5992C7",
+      blueDeep: "#4A0F3A",
       black: colors.black,
       red: colors.red,
       white: colors.white,
