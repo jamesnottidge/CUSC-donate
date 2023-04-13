@@ -2,6 +2,8 @@ import React from "react";
 import targetSVG from "../assets/Boy-throwing-a-dart.svg";
 type Props = {};
 
+// const targetSVG = require("../assets/Boy-throwing-a-dart.svg") as string;
+
 export default function Goals({}: Props) {
   return (
     <div className="">
