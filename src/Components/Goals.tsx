@@ -1,12 +1,12 @@
 import React from "react";
-// import targetSVG from "../assets/Boy-throwing-a-dart.svg";
+import targetSVG from "../assets/Boy-throwing-a-dart.svg";
 type Props = {};
 
 export default function Goals({}: Props) {
   return (
     <div className="">
       <img
-        // src={targetSVG}
+        src={targetSVG}
         alt="boy target"
         className="border border-blueDeep rounded-lg w-full object-cover"
       />
@@ -29,11 +29,11 @@ export default function Goals({}: Props) {
           </span>
         </div>
       </div>
-      <a href="https://flutterwave.com/store/custudentcouncil/aqrlcjwfji5i89">
+      {/* <a href="https://flutterwave.com/store/custudentcouncil/aqrlcjwfji5i89">
         <button className="py-3 md:py-6 xl:py-4 w-full bg-blueDeep mt-6 xl:mt-12 rounded-lg text-2xl lg:w-1/2 text-white">
           Donate Now!
         </button>
-      </a>
+      </a> */}
     </div>
   );
 }
