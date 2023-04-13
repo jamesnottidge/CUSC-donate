@@ -11,11 +11,7 @@ export default function Navbar({ logo }: Props) {
       <div className="bg-gray-50 py-2.5 px-6 sm:px-12 lg:px-20">
         <div className="sm:flex items-center justify-between">
           <div className="flex items-center">
-            <img
-              src={logo}
-              alt=""
-              className="w-40 sm:w-50 lg:w-60 my-auto mx-auto"
-            />
+            <img src={logo} alt="" className="w-10my-auto mx-auto" />
           </div>
           <div>
             <div className="border border-blueDeep py-2.5 px-4 rounded-lg text-center sm:text-start mt-2 sm">

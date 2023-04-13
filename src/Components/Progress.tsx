@@ -32,6 +32,7 @@ export default function Progress({ goalAmount }: Props) {
     getTransactions();
   }, [goalAmount]);
 
+  console.log(percentage);
   return (
     <div className="w-full py-6 lg:py-12 md:flex">
       <div className="mt-12 md:mt-4 xl:mt-16 md:w-1/2 ">
