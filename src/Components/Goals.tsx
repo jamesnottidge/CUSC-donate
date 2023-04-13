@@ -2,26 +2,9 @@ import React from "react";
 import targetSVG from "../assets/Boy-throwing-a-dart.svg";
 type Props = {};
 
-// const targetSVG = require("../assets/Boy-throwing-a-dart.svg") as string;
-
 export default function Goals({}: Props) {
   return (
     <div className="">
-      {/* <div className="text-5xl font-bold font-raleway mb-2 text-blueDeep">
-        IRespond
-      </div>
-      <div className="text-lg font-light text-gray-700 mb-4">
-        <span className="text-blueDeep text-xl">
-          Together, we can make a difference.
-        </span>
-        <br /> <br /> Your donation, no matter how small, can help bring
-        students back to school and provide them with the tools they need to
-        succeed. By giving, you are not only investing in their education but
-        also in their future.
-      </div> */}
-      {/* <h4 className="text-4xl xl:text-3xl font-normal font-raleway mb-4 text-blueDeep">
-        Target
-      </h4> */}
       <img
         src={targetSVG}
         alt="boy target"
