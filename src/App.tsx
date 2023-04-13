@@ -15,17 +15,17 @@ function App() {
           <div className="text-5xl font-bold font-raleway mb-2 text-blueDeep mt-10 sm:mt-0">
             IRespond
           </div>
-          <div className="text-lg font-light text-gray-700 mb-2">
+          <div className="text-lg font-light text-gray-700 mb-2 space-y-3">
             <span className="text-blueDeep text-xl">
               Together, we can do it.
             </span>
             <br />
-            <span className="text-centre sm:text-start">
+            <p className="text-centre sm:text-start">
               The CUSC Donation Bank is an avenue through which we aim to see
               every student resume We have a goal of 7,000,000 naira in 5 days!
               With this sum of money, we can ensure that no student misses out
               on the opportunity to study because they lack funds.
-            </span>
+            </p>
           </div>
           <div className="md:w-[300px] lg:w-[380px] ">
             <a href="https://flutterwave.com/store/custudentcouncil/aqrlcjwfji5i89">
