@@ -33,12 +33,12 @@ export default function Progress({ goalAmount }: Props) {
   }, [goalAmount]);
 
   return (
-    <div className="w-full py-6 lg:py-20 md:flex xl:block">
-      <div className="md:w-1/2 xl:w-full flex items-center justify-center">
-        <CircularProgressBar percentage={percentage} />
-      </div>
-      <div className="mt-6 md:mt-16 xl:mt-20 md:w-1/2 xl:w-full md:mb-16 lg:mb-0">
+    <div className="w-full py-6 lg:py-12 md:flex">
+      <div className="mt-12 md:mt-4 xl:mt-16 md:w-1/2 ">
         <Achievements totalAmount={(percentage * goalAmount) / 100} />
+      </div>
+      <div className="md:w-1/2 mt-12 md:mt-4 xl:mt-16 flex items-center justify-center">
+        <CircularProgressBar percentage={percentage} />
       </div>
     </div>
   );
