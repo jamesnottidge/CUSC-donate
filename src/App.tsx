@@ -17,14 +17,14 @@ function App() {
           </div>
           <div className="text-lg font-light text-gray-700 mb-2">
             <span className="text-blueDeep text-xl">
-              Together, we can make a difference.
+              Together, we can do it.
             </span>
             <br />
             <span className="text-centre sm:text-start">
-              Your donation, no matter how small, can help bring students back
-              to school and provide them with the tools they need to succeed. By
-              giving, you are not only investing in their education but also in
-              their future.
+              The CUSC Donation Bank is an avenue through which we aim to see
+              every student resume We have a goal of 7,000,000 naira in 5 days!
+              With this sum of money, we can ensure that no student misses out
+              on the opportunity to study because they lack funds.
             </span>
           </div>
           <div className="md:w-[300px] lg:w-[380px] ">
