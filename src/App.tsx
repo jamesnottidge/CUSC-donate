@@ -19,7 +19,7 @@ function App() {
             <span className="text-blueDeep text-xl">
               Together, we can make a difference.
             </span>
-            <br /> <br />
+            <br />
             <span className="text-centre sm:text-start">
               Your donation, no matter how small, can help bring students back
               to school and provide them with the tools they need to succeed. By
