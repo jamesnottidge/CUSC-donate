@@ -8,7 +8,7 @@ function App() {
   const goalAmount: number = 7000000;
 
   return (
-    <div className="min-h-screen xl:h-screen w-full overflow-hidden">
+    <div className="min-h-screen 2xl:h-screen w-full overflow-hidden">
       <Navbar logo={logo} />
       <div className="w-full mx-auto xl:flex flex-row min-h-screen lg:bg-gray-50 ">
         <div className=" xl:w-1/2 p-6 sm:p-12 md:p-20 lg:w-4/5 lg:mx-auto bg-gray-50">
