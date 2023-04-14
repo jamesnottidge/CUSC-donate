@@ -37,11 +37,11 @@ export default function Progress({ goalAmount }: Props) {
   return (
     <div className="mt-12 md:mt-4 xl:mt-16 py-6 lg:py-12">
       {allTransactions ? (
+        ""
+      ) : (
         <span className="text-sm text-blueDeep font-raleway font-light">
           Please wait, may take a few seconds.
         </span>
-      ) : (
-        " "
       )}
       <div className="w-full md:flex">
         <div className="md:w-1/2 ">
