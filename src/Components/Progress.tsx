@@ -18,7 +18,6 @@ export default function Progress({ goalAmount }: Props) {
       try {
         const data: Transaction[] = await getAllTransactions();
         setAllTransactions(data);
-        console.log(data.length);
 
         const totalAmount = data.reduce(
           (acc, transaction) => acc + transaction.amount_settled,

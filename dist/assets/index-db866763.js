@@ -8291,7 +8291,6 @@ function Progress({ goalAmount }) {
       try {
         const data = await getAllTransactions();
         setAllTransactions(data);
-        console.log(data.length);
         const totalAmount = data.reduce(
           (acc, transaction) => acc + transaction.amount_settled,
           0
