@@ -18,6 +18,7 @@ export default function Progress({ goalAmount }: Props) {
       try {
         const data: Transaction[] = await getAllTransactions();
         setAllTransactions(data);
+        console.log(data.length);
 
         const totalAmount = data.reduce(
           (acc, transaction) => acc + transaction.amount_settled,
@@ -34,18 +35,22 @@ export default function Progress({ goalAmount }: Props) {
 
   console.log(percentage);
   return (
-    <>
-      <span className="text-base text-blueDeep font-raleway">
-        Please wait, may take a few seconds.
-      </span>
-      <div className="w-full py-6 lg:py-12 md:flex">
-        <div className="mt-12 md:mt-4 xl:mt-16 md:w-1/2 ">
+    <div className="mt-12 md:mt-4 xl:mt-16 py-6 lg:py-12">
+      {allTransactions ? (
+        <span className="text-sm text-blueDeep font-raleway font-light">
+          Please wait, may take a few seconds.
+        </span>
+      ) : (
+        " "
+      )}
+      <div className="w-full md:flex">
+        <div className="md:w-1/2 ">
           <Achievements totalAmount={(percentage * goalAmount) / 100} />
         </div>
         <div className="md:w-1/2 mt-12 md:mt-4 xl:mt-16 flex items-center justify-center">
           <CircularProgressBar percentage={percentage} />
         </div>
       </div>
-    </>
+    </div>
   );
 }
